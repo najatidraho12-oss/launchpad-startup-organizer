@@ -1,0 +1,52 @@
+{
+  "app": "startup_launchpad",
+  "version": 1,
+  "exportedAt": "2025-01-10T10:00:00.000Z",
+  "ideas": [
+    {
+      "id": null,
+      "titre": "Application de gestion de budget étudiant",
+      "description": "Une application mobile simple permettant aux étudiants de suivre leurs dépenses mensuelles et d'éviter le découvert.",
+      "priorite": "Haute",
+      "categorie": "Produit",
+      "statut": "Backlog",
+      "date_creation": "2025-01-01T09:00:00.000Z"
+    },
+    {
+      "id": null,
+      "titre": "Campagne Instagram pour lancement MVP",
+      "description": "Créer une stratégie de contenu Instagram avec posts, stories et reels pour attirer les premiers utilisateurs.",
+      "priorite": "Moyenne",
+      "categorie": "Marketing",
+      "statut": "En cours",
+      "date_creation": "2025-01-03T14:30:00.000Z"
+    },
+    {
+      "id": null,
+      "titre": "Mise en place authentification locale",
+      "description": "Implémenter un système de login local sécurisé avec email et mot de passe.",
+      "priorite": "Haute",
+      "categorie": "Technique",
+      "statut": "Terminé",
+      "date_creation": "2024-12-28T18:45:00.000Z"
+    },
+    {
+      "id": null,
+      "titre": "Étude de marché pour les startups locales",
+      "description": "Analyser les besoins des petites startups locales pour adapter les fonctionnalités clés de l'application.",
+      "priorite": "Moyenne",
+      "categorie": "Business",
+      "statut": "Backlog",
+      "date_creation": "2025-01-05T11:20:00.000Z"
+    },
+    {
+      "id": null,
+      "titre": "Tableau Kanban interactif",
+      "description": "Créer un tableau Kanban pour visualiser l'avancement des idées : Backlog, En cours et Terminé.",
+      "priorite": "Haute",
+      "categorie": "Produit",
+      "statut": "En cours",
+      "date_creation": "2025-01-07T16:10:00.000Z"
+    }
+  ]
+}
