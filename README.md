@@ -1,53 +1,57 @@
-# LaunchPad – Startup Organizer
+<div align="center">
 
-LaunchPad is a mobile application developed with **Flutter** to help project owners and innovation teams organize and manage startup ideas.
+# LaunchPad
 
-The application provides a simple way to structure ideas, manage tasks, define priorities, visualize a project roadmap, and track overall progress.
+### Startup Organizer Mobile Application
 
-## Overview
+A Flutter application designed to help project owners and innovation teams  
+structure ideas, organize tasks and track startup project progress.
 
-The main purpose of LaunchPad is to provide a structured workspace for startup projects.
+<br/>
 
-The application allows users to:
+<img src="https://img.shields.io/badge/Flutter-7E9BBE?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dart-A9C6E3?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-C5A8D8?style=for-the-badge&logo=sqlite&logoColor=white"/>
 
-- Collect and organize startup ideas
-- Manage project tasks
-- Define priorities
-- Visualize a project roadmap
-- Track project progress
+</div>
+
+<br/>
+
+---
+
+## About the Project
+
+**LaunchPad** is a mobile application developed with Flutter to provide a structured workspace for startup projects.
+
+It helps users organize their ideas, manage tasks through a Kanban workflow, define priorities, visualize a project roadmap and monitor overall progress.
+
+---
 
 ## Features
 
 ### Idea Management
 
-Each idea contains:
+Users can create and manage startup ideas with:
 
-- Title
-- Description
-- Priority (High / Medium / Low)
+- Title and description
+- Priority level: High, Medium or Low
 - Category
 - Creation date
+- Search and filtering
 
-Users can:
-
-- Add a new idea
-- Edit an existing idea
-- Delete an idea
-- Search and filter ideas
+Ideas can be added, edited or deleted directly from the application.
 
 ### Kanban Board
 
-The application includes a Kanban board organized into three columns:
+LaunchPad provides a simple Kanban workflow divided into three stages:
 
-- **Backlog**
-- **In Progress**
-- **Done**
+`Backlog` → `In Progress` → `Done`
 
-Ideas can be moved between columns according to their current progress.
+Ideas can be moved between stages according to their current progress.
 
 ### Project Roadmap
 
-A visual roadmap allows users to follow:
+The roadmap provides a visual overview of:
 
 - Project objectives
 - Main features
@@ -56,24 +60,35 @@ A visual roadmap allows users to follow:
 
 ### Statistics
 
-The application provides charts to visualize:
+The application includes graphical indicators for:
 
-- Number of ideas by category
+- Ideas by category
 - Priority distribution
 - Project progress
 
-## Technologies
+---
 
-- **Flutter**
-- **Dart**
-- **SQLite**
+## Tech Stack
 
-## Project Structure
+<div align="center">
 
-The project is organized into the following main directories:
+| Technology | Usage |
+|:---:|---|
+| **Flutter** | Cross-platform mobile development |
+| **Dart** | Application logic |
+| **SQLite** | Local data persistence |
+
+</div>
+
+---
+
+## Project Architecture
+
+The source code is organized into separate layers to keep the application easier to maintain and extend.
 
 ```text
 lib/
+│
 ├── models/
 ├── providers/
 ├── services/
@@ -81,15 +96,67 @@ lib/
 └── widgets/
 ```
 
-- `models` – application data models
-- `providers` – state management and application logic
-- `services` – data access and application services
-- `views` – application screens
-- `widgets` – reusable UI components
+**Models**  
+Defines the application's data structures.
+
+**Providers**  
+Handles state management and application logic.
+
+**Services**  
+Manages data access and application services.
+
+**Views**  
+Contains the main application screens.
+
+**Widgets**  
+Contains reusable user interface components.
+
+---
+
+## Application Workflow
+
+```text
+Create an Idea
+      ↓
+Set Category & Priority
+      ↓
+Add to Backlog
+      ↓
+Move to In Progress
+      ↓
+Complete the Task
+      ↓
+Track Project Progress
+```
+
+---
 
 ## Author
 
-**Najat ID Raho**  
-Computer Engineering Student – ENIAD
+<div align="center">
 
-[LinkedIn](https://www.linkedin.com/in/najat-id-raho-b05a25360/)
+**Najat ID Raho**
+
+Computer Engineering Student — ENIAD
+
+<br/>
+
+<a href="https://www.linkedin.com/in/najat-id-raho-b05a25360/">
+  <img src="https://img.shields.io/badge/LinkedIn-8FAFD1?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/najatidraho12-oss">
+  <img src="https://img.shields.io/badge/GitHub-C5A8D8?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<sub>Developed as part of my Computer Engineering projects.</sub>
+
+</div>
