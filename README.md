@@ -1,78 +1,95 @@
-# LaunchPad – Startup Organizer App
+# LaunchPad – Startup Organizer
 
-LaunchPad est une application mobile développée avec **Flutter** permettant aux porteurs de projets et aux équipes d’innovation d’organiser leurs idées de startup.
+LaunchPad is a mobile application developed with **Flutter** to help project owners and innovation teams organize and manage startup ideas.
 
-## Présentation
+The application provides a simple way to structure ideas, manage tasks, define priorities, visualize a project roadmap, and track overall progress.
 
-L'application permet de :
+## Overview
 
-- Collecter et structurer les idées
-- Organiser les tâches d’un projet startup
-- Définir les priorités
-- Visualiser une roadmap
-- Suivre l'avancement du projet
+The main purpose of LaunchPad is to provide a structured workspace for startup projects.
 
-## Fonctionnalités principales
+The application allows users to:
 
-### Gestion des idées
-Chaque idée contient :
-- Titre
+- Collect and organize startup ideas
+- Manage project tasks
+- Define priorities
+- Visualize a project roadmap
+- Track project progress
+
+## Features
+
+### Idea Management
+
+Each idea contains:
+
+- Title
 - Description
-- Priorité (Haute / Moyenne / Basse)
-- Catégorie
-- Date de création
+- Priority (High / Medium / Low)
+- Category
+- Creation date
 
-Fonctions disponibles :
-- Ajouter une idée
-- Modifier une idée
-- Supprimer une idée
-- Rechercher et filtrer
+Users can:
 
-### Tableau Kanban
+- Add a new idea
+- Edit an existing idea
+- Delete an idea
+- Search and filter ideas
 
-L'application inclut un tableau Kanban avec 3 colonnes :
+### Kanban Board
 
-- Backlog
-- In Progress
-- Done
+The application includes a Kanban board organized into three columns:
 
-Les idées peuvent être déplacées entre les colonnes.
+- **Backlog**
+- **In Progress**
+- **Done**
 
-### Roadmap projet
+Ideas can be moved between columns according to their current progress.
 
-Une roadmap visuelle permet de suivre :
+### Project Roadmap
 
-- Les objectifs
-- Les fonctionnalités principales
-- Les échéances
-- L’avancement global
+A visual roadmap allows users to follow:
 
-### Statistiques
+- Project objectives
+- Main features
+- Deadlines
+- Overall progress
 
-Des graphiques permettent de visualiser :
+### Statistics
 
-- Nombre d’idées par catégorie
-- Répartition des priorités
-- Progression du projet
+The application provides charts to visualize:
 
-## Technologies utilisées
+- Number of ideas by category
+- Priority distribution
+- Project progress
 
-- Flutter
-- Dart
-- SQLite
+## Technologies
 
+- **Flutter**
+- **Dart**
+- **SQLite**
 
-## Architecture du projet
+## Project Structure
 
-Le projet est organisé en :
+The project is organized into the following main directories:
 
-- models
-- providers
-- services
-- views
-- widgets
+```text
+lib/
+├── models/
+├── providers/
+├── services/
+├── views/
+└── widgets/
+```
 
-## Auteur
+- `models` – application data models
+- `providers` – state management and application logic
+- `services` – data access and application services
+- `views` – application screens
+- `widgets` – reusable UI components
 
-Najat ID Raho  
-Étudiante en Génie Informatique – ENIAD
+## Author
+
+**Najat ID Raho**  
+Computer Engineering Student – ENIAD
+
+[LinkedIn](https://www.linkedin.com/in/najat-id-raho-b05a25360/)
